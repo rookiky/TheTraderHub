@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.title-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-fuchsia-500 to-teal-500;
+}
